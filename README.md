@@ -1,5 +1,5 @@
 # Web-Crawlie
-A web crawler created using FastAPI and Beautiful soup
+A basic web crawler created using FastAPI and Beautiful soup
 
 # How It Works
 Enter an appropriate url into the API, it finds your requested URL, scrapes the title,
