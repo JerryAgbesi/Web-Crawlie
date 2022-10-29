@@ -1,4 +1,3 @@
-from gettext import find
 import uvicorn
 from fastapi import FastAPI
 import requests
@@ -10,7 +9,7 @@ app = FastAPI()
 class URL(BaseModel):
     url: HttpUrl
 
-
+#Home route
 @app.get("/")
 def home():
     return {"msg":"Welcome to web Crawlie"}
