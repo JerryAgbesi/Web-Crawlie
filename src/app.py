@@ -49,6 +49,6 @@ async def scrape_url(url:URL):
         "status":True
 
 
-    },200
+    }
 
 
