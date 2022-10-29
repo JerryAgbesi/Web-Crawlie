@@ -40,10 +40,15 @@ async def scrape_url(url:URL):
         return soup.find("meta",property="og:image").get("content") if soup.find("meta",property="og:image") else None    
 
     return {
+        "msg":{
         "title":get_title(),
         "Description":get_description(),
         "Keywords":get_keywords(),
-        "Image":get_image()
-    }
+        "Image":get_image()},
+
+        "status":True
+
+
+    },200
 
 
